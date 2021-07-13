@@ -288,6 +288,7 @@ span h3{
     
         .latest-course{
             grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 25px;
                 
                 
             }
@@ -296,6 +297,10 @@ span h3{
                 justify-content: center;
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .course img {
+                width: 100%;
             }
     
 }
